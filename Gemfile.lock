@@ -1,0 +1,65 @@
+GEM
+  specs:
+    bootsnap (1.15.0)
+      msgpack (~> 1.2)
+    concurrent-ruby (1.1.10)
+    dry-auto_inject (1.0.0)
+      dry-core (~> 1.0, < 2)
+      zeitwerk (~> 2.6)
+    dry-configurable (1.0.1)
+      dry-core (~> 1.0, < 2)
+      zeitwerk (~> 2.6)
+    dry-core (1.0.0)
+      concurrent-ruby (~> 1.0)
+      zeitwerk (~> 2.6)
+    dry-inflector (1.0.0)
+    dry-system (1.0.1)
+      dry-auto_inject (~> 1.0, < 2)
+      dry-configurable (~> 1.0, < 2)
+      dry-core (~> 1.0, < 2)
+      dry-inflector (~> 1.0, < 2)
+    dry-transformer (1.0.1)
+      zeitwerk (~> 2.6)
+    hanami-api (0.2.0)
+      hanami-router (~> 2.0.alpha)
+    hanami-controller (2.0.0)
+      dry-configurable (~> 1.0, < 2)
+      dry-core (~> 1.0)
+      hanami-utils (~> 2.0)
+      rack (~> 2.0)
+      zeitwerk (~> 2.6)
+    hanami-router (2.0.1)
+      mustermann (~> 3.0)
+      mustermann-contrib (~> 3.0)
+      rack (~> 2.0)
+    hanami-utils (2.0.1)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0, < 2)
+      dry-transformer (~> 1.0, < 2)
+    hansi (0.2.1)
+    msgpack (1.6.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    mustermann-contrib (3.0.0)
+      hansi (~> 0.2.0)
+      mustermann (= 3.0.0)
+    nio4r (2.5.8)
+    puma (6.0.0)
+      nio4r (~> 2.0)
+    rack (2.2.4)
+    ruby2_keywords (0.0.5)
+    zeitwerk (2.6.6)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  bootsnap
+  dry-system
+  hanami-api
+  hanami-controller
+  puma
+  rack
+
+BUNDLED WITH
+   2.2.3

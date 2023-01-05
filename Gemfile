@@ -1,0 +1,6 @@
+gem 'bootsnap'
+gem 'dry-system'
+gem 'rack'
+gem 'puma'
+gem 'hanami-api'
+gem 'hanami-controller'
